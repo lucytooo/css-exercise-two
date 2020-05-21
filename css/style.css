@@ -1,10 +1,21 @@
+
+/* BODY STYLING */
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  line-height: 150%;
+  background-color: #ffffff;
+  color: #000000;
 }
 
+
+
+/* NAV STYLING */
+
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000000;
+  color:#ffffff;
   float: left;
   position: fixed;
   width: 100%;
@@ -13,23 +24,6 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
 }
 
 ul {
@@ -42,11 +36,60 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+.left, .right {
+  float: left;
+  width: 50%;
 }
 
-.container {
+/* Nav Links */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #00D8FF; /* On Hover */
+}
+
+
+/* ARTICLE STYLING */
+
+/* Headers and other text */
+h1  {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.story-text {
+  padding-top: 30px;
+}
+
+
+/* Article Picture */
+.medium-pic {
+  /* Picture of Aaron Draplin and Chris Courtney */
+  width: 70%;
+}
+
+figcaption {
+  /* Aaron Draplin explains that
+  Chris Courtney has to pay the next parking ticket. */
+  font-size: 10px;
+}
+
+
+/* Spacing */
+article {
+  padding-top: 130px;
   margin: 0 auto;
   width: 50%;
 }
